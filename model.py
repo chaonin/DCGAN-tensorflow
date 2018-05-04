@@ -1,5 +1,6 @@
 from __future__ import division
 import os
+os.environ['TF_CPP_MIN_LOG_LEVEL']='3'
 import time
 import math
 from glob import glob
